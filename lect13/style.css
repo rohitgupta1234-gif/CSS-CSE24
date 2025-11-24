@@ -1,0 +1,10 @@
+.body{
+    border: 2px solid black;
+
+}
+.menu a {
+  color: blue;
+  
+  display: inline-block;
+  margin: 6px;
+}
