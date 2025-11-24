@@ -1,0 +1,14 @@
+
+body{
+    border: 2px   solid black;
+}
+.text1{
+    font-weight: bold;
+    background-color: rgba(18, 194, 194, 0.947);
+    margin: 10px;
+
+}
+.text2{
+    background-color: rgb(17, 212, 27);
+    margin: 10px;
+}
