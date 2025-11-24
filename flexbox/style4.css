@@ -4,11 +4,12 @@
 }
 .container{
     /* display: flex; */
-    border: 2px solid black;
-    height: 200px;
-    width: 800px;
+    border: 4px solid black;
+    height: 500px;
+    width: 1000px;
     margin: 150px;
     padding: 40px;
+    /* flex-direction: column-reverse; */
     
     display: flex ;
     /* justify-content: space-evenly; */
@@ -18,6 +19,17 @@
     /* align-content: flex-end; */
     /* gap: 10px 30px; */
     gap: 10px;
+     flex-wrap: wrap;
+     /* flex-flow: column wrap; */
+     /* justify main acees pe lagti hai */
+     /* justify-content: space-evenly; */
+     /* justify-content: space-around; */
+     align-items: center;
+     /* align-content: space-between; */
+     /* align-content: space-around;
+     align-content: stretch; */
+     align-content: center;
+
 
     
     
@@ -26,7 +38,20 @@
 .item{
     /* height: 25px;
     width: 60px; */
-    background-color: darkgray;
+    height: 200px;
+    width: 200px;
+    background-color: red;
     color: black;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+ 
+  
     
+}
+/* child property */
+ /* by default sabhi ka order zero hota h; order property child property h */
+.item4{
+    order: -1;
+    flex-grow: 2;
+    align-self: flex-end;
 }
