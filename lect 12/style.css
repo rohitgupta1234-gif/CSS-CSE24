@@ -1,0 +1,39 @@
+.container{
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    width: 1200px;
+}
+.Book{
+    height: 400px;
+    width: 300px;
+    background-color: violet;
+    color: black;
+    
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    
+}
+.Headphones{
+    height: 400px;
+    width: 300px;
+    background-color: red;
+    color: black;
+    
+    
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+}
+.watch{
+    height: 400px;
+    width: 300px;
+    background-color: aquamarine;
+    color: black;
+    
+     margin-top: 100px;
+    text-align: center;
+    align-items: center;
+}
