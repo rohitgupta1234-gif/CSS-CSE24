@@ -1,0 +1,43 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+.container{
+    display: grid;
+    height: 500px;
+    width: 1000px;
+    background-color: aqua;
+    border: 1px solid black;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr);
+    /* grid-template-areas: "header header header header" "main main . sidebar "   "footer footer footer footer"; */
+    column-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    /* align-items: stretch; */
+    /* both item ke jagah per place-items: ; */
+
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background: brown;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+
+
+}
+/* .item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: main;
+}
+.item3{
+    grid-area: sidebar;
+}
+.item4{
+    grid-area: footer;
+} */
