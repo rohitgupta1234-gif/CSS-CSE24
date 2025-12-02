@@ -1,0 +1,65 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+.container{
+    display: grid;
+    height: 500px;
+    width: 1000px;
+    background-color: aqua;
+    border: 1px solid black;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3,1fr); */
+    /* grid-template-areas: "header header header header" "main main . sidebar "   "footer footer footer footer"; */
+    /* column-gap: 1px; */
+    /* row-gap: 20px; */
+     /* justify-items: center; */
+     /* justify-items: stretch; */
+    align-items: center; 
+    /* align-items: stretch; */
+    /* both item ke jagah per place-items: ; */
+    /* align-items: stretch; */
+    justify-content: center;
+    /* align-content: space-evenly; */
+    /* align-content: space-around; */
+    row-gap: 10px;
+    
+    
+    
+
+}
+.item{
+    height: 100px;
+    width: 100px;
+    background: brown;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+.item1{
+    /* grid-area: header; */
+    grid-column: 1/2;
+    grid-row: 2/3;
+    row-gap: 10px;
+    
+}
+.item2{
+    /* grid-area: main;
+    grid-row: inherit; */
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.item3{
+    /* grid-area: sidebar; */
+    grid-column: 6/7;
+    grid-row: 3/4;
+}
+.item4{
+    /* grid-area: footer; */
+    grid-column: 4/5;
+    grid-column: 2/3;
+}
