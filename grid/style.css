@@ -9,7 +9,7 @@
     background-color: aqua;
     border: 1px solid black;
     /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: repeat(3,1fr);
     /* grid-template-areas: "header header header header" "main main . sidebar "   "footer footer footer footer"; */
     column-gap: 10px;

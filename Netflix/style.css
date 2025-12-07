@@ -1,0 +1,38 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    color: white;
+}
+
+.logo{
+    color: rgb(248, 2, 2);
+}
+.signin{
+     background-color: red;
+}
+.home{
+    background-image: url("./IN-en-20251124-TRIFECTA-perspective_9f00d07d-f08e-494f-8907-92371138c534_large.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    filter: brightness(1.5);
+    position: relative;
+    z-index: 111;
+
+
+}
+
+.home::after
+{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.808);
+    position: absolute;
+}
