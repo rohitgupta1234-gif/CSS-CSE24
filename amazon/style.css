@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+}
+.log{
+    height: 50px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-address{
+    color: white;
+    margin-top: 10px;
+    
+}
+
+
+
+/* box2 */
+.add-first{
+     color: #cccccc;
+     font-size: 0.85rem;
+     margin-left: 15px;
+}
+.add-second{
+   font-size: 1rem;
+  
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* box3 */
+.nav-search{
+    display: flex;
+    height: 45px;
+    margin-top: 8px;
+    /* margin-left: 18px; */
+    border-radius: 6px;
+    overflow: hidden;
+    border: none;
+    font-weight: bold;
+    
+
+
+}
+.search-icon{
+    background-color: rgb(196, 137, 19);
+   justify-content: center;
+   align-items: center;
+   padding-left: 10px;
+   padding-top: 13px;
+    width: 40px;
+}
+.all{
+    background-color: #d8d8d8df;
+}
+.search-bar{
+    width: 450px;
+}
+
+
+
+/* box5 */
+.box5{
+    color: white;
+    margin-top: 16px;
+    
+
+}
+.lists{
+    display: flex;
+    font-size: 14px;
+    background-color: #0f1111;
+
+}
+.lists select{
+      background-color: #0f1111;
+      color: white;
+      border: none;
+}
+.hellow{
+    font-size: 12px;
+}
+
+
+
+/* box4 */
+.box4{
+   color: white;
+   display: flex;
+   /* margin-top: 15px; */
+}
+.box4 select{
+    background-color: #0f1111;
+    color: white;
+    border: none;
+}
+
+
+/* box6 */
+.box6{
+    color: white;
+    margin-top: 16px;
+
+}
+.return{
+    font-size: 12px;
+}
+.order{
+    font-size: 14px;
+}
+
+
+
+.cart{
+    color: white;
+    /* height: 5px;
+    width: 3px; */
+    margin-top: 12px;
+}
+.cart1{
+    height: 35px;
+    
+
+}
+
+
+
+/* panel */
+.panel{
+    display: flex;
+    background-color: #232F3E;
+    color: white;
+    height: 40px;
+    justify-content: start;
+    
+}
+.all{
+    display: flex;
+    background-color: #232F3E;
+    align-items: center;
+    margin-left: 10px;
+}
+.fresh{
+     
+    background-color: #232F3E;
+   
+}
+.fresh select{
+    background-color: #232F3E;
+    color: white;
+    border: none;
+    align-items: centre;
+    padding: 10px;
+}
+ .mxplayer{
+    padding: 10px;
+    font-size: 14px;
+ }
+ .sell{
+    padding: 10px;
+    font-size: 14px;
+ }
+ .bestseller{
+    padding: 10px;
+    font-size: 14px;
+ }
+ .mobiles{
+    padding: 10px;
+    font-size: 14px;
+ }
+ .todaysdeals{
+    padding: 10px;
+    font-size: 14px;
+ }
+
+
+
+ .rohit{
+   
+    justify-content: end;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+     margin-left: 350px;
+   
+ }
+ .gupta{
+     display: flex;
+      border: 0.2px solid white;
+      border-radius: 6px;
+    overflow: hidden;
+
+ }
+ .gupta mark{
+    background-color: #ffff00;
+ }
+ .rauniyar{
+    display: flex;
+    margin-left: 10px;
+ }
+ .pay{
+    height: 30px;
+    background-color: #0f1111;
+   margin-left: 20px;
+ }
+
+
+
+
+
+.hero{
+    width: 1280px;
+    height: 230px;
+    border-radius: 9px solid;
+}
+
+
+
